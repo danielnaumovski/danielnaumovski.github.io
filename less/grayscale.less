@@ -1,5 +1,7 @@
 @import "variables.less";
 @import "mixins.less";
+@import "parallax.less";
+
 
 body {
     width: 100%;
@@ -65,6 +67,7 @@ a {
     background-color: @dark;
     .navbar-brand {
         font-weight: 700;
+        display: none;
         &:focus {
             outline: none;
         }
@@ -130,7 +133,7 @@ a {
     padding: 100px 0;
     text-align: center;
     color: @light;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/bg-1.jpg) no-repeat bottom center scroll;
     background-color: @dark;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -246,7 +249,7 @@ a {
     width: 100%;
     padding: 50px 0;
     color: @light;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/bg-1.jpg) no-repeat center center scroll;
     background-color: @dark;
     -webkit-background-size: cover;
     -moz-background-size: cover;
