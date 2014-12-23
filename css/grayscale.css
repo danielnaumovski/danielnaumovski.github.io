@@ -62,7 +62,7 @@ p {
   }
 }
 a {
-  color: #219ab3;
+  color: #7f0200;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -70,7 +70,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #11505d;
+  color: #e50400;
 }
 .light {
   font-weight: 400;
@@ -274,16 +274,16 @@ a:focus {
   transition: all 0.3s ease-in-out;
 }
 .btn-default {
-  border: 1px solid #219ab3;
-  color: #219ab3;
+  border: 1px solid #7f0200;
+  color: #7f0200;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #219ab3;
+  border: 1px solid #7f0200;
   outline: none;
   color: #000000;
-  background-color: #219ab3;
+  background-color: #7f0200;
 }
 ul.banner-social-buttons {
   margin-top: 0;
@@ -308,6 +308,9 @@ footer {
 }
 footer p {
   margin: 0;
+}
+.acknowledgement {
+  font-size: 12px;
 }
 ::-moz-selection {
   text-shadow: none;

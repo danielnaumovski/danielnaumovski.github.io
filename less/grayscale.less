@@ -44,14 +44,14 @@ p {
 }
 
 a {
-    color: @primary;
+    color: @bloodred;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
     &:hover,
     &:focus {
         text-decoration: none;
-        color: darken(@primary,20%);
+        color: lighten(@bloodred,20%);
     }
 }
 
@@ -288,15 +288,15 @@ a {
 }
 
 .btn-default {
-    border: 1px solid @primary;
-    color: @primary;
+    border: 1px solid @bloodred;
+    color: @bloodred;
     background-color: transparent;
     &:hover,
     &:focus {
-        border: 1px solid @primary;
+        border: 1px solid @bloodred;
         outline: none;
         color: @dark;
-        background-color: @primary;
+        background-color: @bloodred;
     }
 }
 
@@ -329,6 +329,10 @@ footer {
         margin: 0;
     }
 }
+
+.acknowledgement {
+    font-size: 12px;
+ }  
 
 ::-moz-selection {
     text-shadow: none;
